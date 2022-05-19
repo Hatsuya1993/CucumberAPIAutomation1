@@ -1,25 +1,11 @@
 package context;
 
-import java.io.InputStream;
-import java.util.Properties;
+import utilities.ReadConfig;
 
 public class TestBase {
 
-    protected String url = LoadProperties().getProperty("url");
+    ReadConfig readConfig = new ReadConfig();
 
-    public Properties LoadProperties() {
-        try {
-            InputStream inputStream =
-                    getClass().getClassLoader().getResourceAsStream("config" +
-                            ".properties");
-            Properties prop = new Properties();
-            prop.load(inputStream);
-            return prop;
-        } catch (Exception e) {
-            System.out.println("File not found exception thrown for config" +
-                    ".properties file.");
-            return null;
-        }
-    }
+    public String getUrl = readConfig.getUrl();
 
 }

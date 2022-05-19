@@ -1,17 +1,18 @@
 package runner;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/api",
-        glue = "stepdefs.api",
+        features = "./features/api/GetRequest.feature",
+        glue = "stepdefs/api",
+        dryRun = false,
+        monochrome = true,
         plugin = {
                 "pretty",
-                "html:target/html/",
-                "json:target/json/file.json"
+                "html:test-output",
         }
 )
 
