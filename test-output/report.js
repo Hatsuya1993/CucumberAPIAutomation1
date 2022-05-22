@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "Get request to fetch all products",
+  "name": "Get request to fetch products",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -29,11 +29,11 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "Go rest API is up and running",
+  "name": "Go rest API is up and running to fetch products",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "GetRequestStepDefs.go_rest_api_is_up_and_running()"
+  "location": "GetRequestStepDefs.go_rest_API_is_up_and_running_to_fetch_products()"
 });
 formatter.result({
   "status": "passed"
@@ -55,6 +55,56 @@ formatter.step({
 });
 formatter.match({
   "location": "GetRequestStepDefs.API_should_return_all_products()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Get request to fetch a single product",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@api"
+    },
+    {
+      "name": "@get"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Go rest API is up and running to fetch products",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.go_rest_API_is_up_and_running_to_fetch_products()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I hit the api with get request and end point as \"/products/1\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.i_hit_the_api_with_get_request_and_end_point_as(String)"
+});
+formatter.write("Response of the request is {\"id\":1,\"title\":\"iPhone 9\",\"description\":\"An apple mobile which is nothing like apple\",\"price\":549,\"discountPercentage\":12.96,\"rating\":4.69,\"stock\":94,\"brand\":\"Apple\",\"category\":\"smartphones\",\"thumbnail\":\"https://dummyjson.com/image/i/products/1/thumbnail.jpg\",\"images\":[\"https://dummyjson.com/image/i/products/1/1.jpg\",\"https://dummyjson.com/image/i/products/1/2.jpg\",\"https://dummyjson.com/image/i/products/1/3.jpg\",\"https://dummyjson.com/image/i/products/1/4.jpg\",\"https://dummyjson.com/image/i/products/1/thumbnail.jpg\"]}");
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "API should return a single product",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.api_should_return_a_single_product()"
 });
 formatter.result({
   "status": "passed"

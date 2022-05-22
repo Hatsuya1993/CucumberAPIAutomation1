@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32bc29ff-bebd-47b1-ba53-1b31baae477b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/api/GetRequest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/api/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/api/TestContextAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReadConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/IEDriverServer.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/geckodriver.exe" afterDir="false" />
@@ -23,21 +18,11 @@
       <change beforePath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/DeleteRequestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/DeleteRequestStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/GetRequestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/GetRequestStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/TestContextAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Batch8CucumberSeleniumAPI/src/test/java/stepdefs/api/TestContextAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/context/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/context/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/api/GetRequest.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/bdd-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/extent.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/api/GetRequest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/api/GetRequest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/api/GetRequestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/api/GetRequestStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefs/api/GetRequestStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefs/api/GetRequestStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +47,12 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hal19/IdeaProjects/Batch7APIAutomationFW"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal19/IdeaProjects/Batch7APIAutomationFW&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hal19\IdeaProjects\VisionIT_Batch8\CucumberAPIAutomation1\src\test\java\resources\features" />
@@ -191,7 +176,8 @@
       <updated>1652316460557</updated>
       <workItem from="1652844151076" duration="956000" />
       <workItem from="1652877050645" duration="13009000" />
-      <workItem from="1652962395566" duration="3017000" />
+      <workItem from="1652962395566" duration="3132000" />
+      <workItem from="1653198878454" duration="8381000" />
     </task>
     <servers />
   </component>
