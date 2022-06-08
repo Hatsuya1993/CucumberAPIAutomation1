@@ -8,7 +8,9 @@
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/IEDriverServer.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Features/Customers.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/Features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/src/test/java/PageObjects/AddCustomerPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/src/test/java/PageObjects/LoginPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/src/test/java/StepDefinitions/BaseClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nopCommerceV001_Cucumber/src/test/java/StepDefinitions/Steps.java" afterDir="false" />
@@ -50,7 +52,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal19/IdeaProjects/Batch7APIAutomationFW&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hal19/IdeaProjects/VisionIT_Batch8/CucumberAPIAutomation1&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -177,7 +179,11 @@
       <workItem from="1652844151076" duration="956000" />
       <workItem from="1652877050645" duration="13009000" />
       <workItem from="1652962395566" duration="3132000" />
-      <workItem from="1653198878454" duration="8381000" />
+      <workItem from="1653198878454" duration="8440000" />
+      <workItem from="1653352010932" duration="10000" />
+      <workItem from="1653832112484" duration="2588000" />
+      <workItem from="1654267159938" duration="13000" />
+      <workItem from="1654645599514" duration="1337000" />
     </task>
     <servers />
   </component>

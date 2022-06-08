@@ -10,3 +10,8 @@
       Given Go rest API is up and running to fetch products
       When I hit the api with get request and end point as "/products/1"
       Then API should return a single product
+
+    Scenario: Get request to fetch and search a product
+      Given Go rest API is up and running to fetch products
+      When I hit thr api with the get request and end point as "/products/search?q=Laptop"
+      Then API should return the searched products
