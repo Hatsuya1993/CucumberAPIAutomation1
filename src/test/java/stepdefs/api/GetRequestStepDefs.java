@@ -79,6 +79,15 @@ public class GetRequestStepDefs extends TestBase {
         testContextAPI.resp.then().assertThat().body("products[0]['images'][0]", is(notNullValue()));
     }
 
+    @Then("API should return the categories")
+    public void api_should_return_the_categories() {
+        // Write code here that turns the phrase above into concrete actions
+        testContextAPI.resp.then().assertThat().statusCode(200);
+        testContextAPI.resp.then().assertThat().body(not(emptyArray()));
+        testContextAPI.resp.then().assertThat().body("[0]", isA(String.class));
+        testContextAPI.resp.then().assertThat().body("[0]", is(notNullValue()));
+    }
+
     @Then("API should return all products")
     public void API_should_return_all_products() {
         testContextAPI.resp.then().assertThat().statusCode(200);

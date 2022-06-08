@@ -162,4 +162,54 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "Get request to fetch and search a product",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@api"
+    },
+    {
+      "name": "@get"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Go rest API is up and running to fetch products",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.go_rest_API_is_up_and_running_to_fetch_products()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I hit thr api with the get request and end point as \"/products/categories\"",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.i_hit_thr_api_with_the_get_request_and_end_point_as(String)"
+});
+formatter.write("Response of the request is [\"smartphones\",\"laptops\",\"fragrances\",\"skincare\",\"groceries\",\"home-decoration\",\"furniture\",\"tops\",\"womens-dresses\",\"womens-shoes\",\"mens-shirts\",\"mens-shoes\",\"mens-watches\",\"womens-watches\",\"womens-bags\",\"womens-jewellery\",\"sunglasses\",\"automotive\",\"motorcycle\",\"lighting\"]");
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "API should return the categories",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetRequestStepDefs.api_should_return_the_categories()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
